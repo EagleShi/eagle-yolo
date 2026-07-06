@@ -32,7 +32,8 @@ yolo export model=best.pt format=engine int8=True data=data.yaml
 ## 校准数据集
 
 ```bash
-python scripts/create_calibration_dataset.py --images-dir dataset/images/val --output calibration.txt --num 500
+# 使用 yolo-data-prep 的脚本生成校准数据集
+python ../yolo-data-prep/scripts/create_calibration_dataset.py --images-dir dataset/images/val --output calibration.txt --num 500
 ```
 
 ## 自定义 ONNX INT8 量化
