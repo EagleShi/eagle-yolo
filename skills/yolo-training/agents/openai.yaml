@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 模型训练"
+  short_description: "多版本训练/超参"
+  default_prompt: "Use $yolo-training to help with YOLO tasks."

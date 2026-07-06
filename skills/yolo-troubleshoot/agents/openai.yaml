@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 故障排查"
+  short_description: "运行时诊断修复"
+  default_prompt: "Use $yolo-troubleshoot to help with YOLO tasks."

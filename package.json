@@ -1,0 +1,10 @@
+{
+  "name": "eagle-yolo",
+  "version": "1.0.0",
+  "description": "YOLO 目标检测全栈开发插件",
+  "license": "MIT",
+  "keywords": ["yolo", "claude-code", "object-detection", "training", "deploy"],
+  "scripts": {
+    "test": "node tests/quality.test.js"
+  }
+}

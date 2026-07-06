@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 平台部署"
+  short_description: "7大平台部署"
+  default_prompt: "Use $yolo-deploy to help with YOLO tasks."

@@ -1,0 +1,14 @@
+{
+  "name": "eagle-yolo",
+  "version": "1.0.0",
+  "description": "YOLO 目标检测全栈开发插件，覆盖数据准备、多版本训练、导出、量化、评估、7 大平台部署的完整流程。",
+  "author": {
+    "name": "Eagle",
+    "email": "eagle@example.com"
+  },
+  "homepage": "https://github.com/Eagle-0718/eagle-yolo",
+  "repository": "https://github.com/Eagle-0718/eagle-yolo",
+  "license": "MIT",
+  "keywords": ["yolo", "object-detection", "training", "tensorrt", "rkncnn", "deploy", "quantization"],
+  "mcpServers": {}
+}

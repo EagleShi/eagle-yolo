@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 数据准备"
+  short_description: "标注转换/增强/划分"
+  default_prompt: "Use $yolo-data-prep to help with YOLO tasks."

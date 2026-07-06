@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 模型评估"
+  short_description: "mAP/速度基准"
+  default_prompt: "Use $yolo-evaluate to help with YOLO tasks."

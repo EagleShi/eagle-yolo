@@ -1,0 +1,32 @@
+{
+  "agents": [
+    {
+      "name": "yolo-plan-writer",
+      "file": "agents/yolo-plan-writer.md",
+      "model": "sonnet",
+      "mode": "subagent",
+      "description": "YOLO 计划文档单 task 内容生成，由 yolo-planning 派发"
+    },
+    {
+      "name": "yolo-plan-reviewer",
+      "file": "agents/yolo-plan-reviewer.md",
+      "model": "opus",
+      "mode": "subagent",
+      "description": "YOLO 计划文档对抗性审查，只找阻塞问题"
+    },
+    {
+      "name": "yolo-code-writer",
+      "file": "agents/yolo-code-writer.md",
+      "model": "sonnet",
+      "mode": "subagent",
+      "description": "YOLO 领域代码编写者，由 yolo-executing 派发"
+    },
+    {
+      "name": "yolo-code-reviewer",
+      "file": "agents/yolo-code-reviewer.md",
+      "model": "opus",
+      "mode": "subagent",
+      "description": "YOLO 领域代码审查者，由 yolo-executing 派发"
+    }
+  ]
+}

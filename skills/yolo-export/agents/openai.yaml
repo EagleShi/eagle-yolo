@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 模型导出"
+  short_description: "ONNX/TRT/CoreML/TFLite"
+  default_prompt: "Use $yolo-export to help with YOLO tasks."

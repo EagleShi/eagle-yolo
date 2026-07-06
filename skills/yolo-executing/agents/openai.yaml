@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 计划执行"
+  short_description: "按计划逐步执行"
+  default_prompt: "Use $yolo-executing to help with YOLO tasks."

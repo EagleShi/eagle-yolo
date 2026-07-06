@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 需求澄清"
+  short_description: "需求澄清→设计文档"
+  default_prompt: "Use $yolo-brainstorming to help with YOLO tasks."

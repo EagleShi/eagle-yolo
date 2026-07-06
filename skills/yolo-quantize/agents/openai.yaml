@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 模型量化"
+  short_description: "FP16/INT8/QAT/剪枝"
+  default_prompt: "Use $yolo-quantize to help with YOLO tasks."

@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 流程入口"
+  short_description: "YOLO 全流程路由"
+  default_prompt: "Use $yolo-workflow-entry to help with YOLO tasks."

@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "YOLO 计划生成"
+  short_description: "设计文档→执行计划"
+  default_prompt: "Use $yolo-planning to help with YOLO tasks."
