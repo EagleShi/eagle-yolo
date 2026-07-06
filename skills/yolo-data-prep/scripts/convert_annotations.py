@@ -80,7 +80,13 @@ def yolo_to_coco(input_dir, output_json, images_dir, classes):
         img_name = txt.stem + '.jpg'
         img_path = Path(images_dir) / img_name
         if img_path.exists():
-            import cv2; img = cv2.imread(str(img_path)); h, w = img.shape[:2]
+            try:
+                import cv2
+                img = cv2.imread(str(img_path))
+                h, w = img.shape[:2]
+            except ImportError:
+                print("WARNING: opencv-python not installed, using default 640x640")
+                w, h = 640, 640
         else: w, h = 640, 640
         coco['images'].append({'id': img_id, 'file_name': img_name, 'width': w, 'height': h})
         for line in txt.read_text().strip().splitlines():
